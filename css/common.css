@@ -1,0 +1,71 @@
+@charset "utf-8";
+/*********  文字颜色 *********/
+.fc-gray{
+	color: #b0b0b0;
+}
+.fc-org{
+	color: #ff6700;
+}
+/*********  背景颜色 *********/
+.bg-org{
+	background-color: #ff6700;
+}
+.bg-gray{
+	background-color: #333;
+}
+/*********    浮动   *********/
+.fl-lf{
+	float: left;
+}
+.fl-rgt{
+	float: right;
+}
+/*********  清除浮动 *********/
+.clearfix{
+	content: '';
+	display: block;
+	clear: both;
+}
+/*边距*/
+.mg-rgt{
+	margin-right: 14px;
+}
+.mg-btm{
+	margin-bottom: 14px;
+}
+/*********    边框   *********/
+.bd-rgt{
+	border-right: none;
+}
+/*********  内容盒子 *********/
+.container{
+	width: 1226px;
+	margin: auto;
+}
+h2{
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+}
+h3{
+	font-size: 14px;
+	line-height: 16px;
+	margin-top: 22px;
+	margin-bottom: 3px;
+}
+h3 a{
+	color: #212121;
+	font-weight: normal;
+}
+.desc{
+	height: 18px;
+	margin: 0 auto 20px;
+	font-size: 12px;
+	color: #b0b0b0;
+}
+.price{
+	color: #ff6700;
+}
+del{
+	color: #b0b0b0;
+}
