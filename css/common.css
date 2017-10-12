@@ -21,7 +21,7 @@
 	float: right;
 }
 /*********  清除浮动 *********/
-.clearfix{
+.clearfix:after{
 	content: '';
 	display: block;
 	clear: both;
@@ -33,10 +33,14 @@
 .mg-btm{
 	margin-bottom: 14px;
 }
+.mg-btm22{
+	margin-bottom: 22px;
+}
 /*********    边框   *********/
 .bd-rgt{
 	border-right: none;
 }
+
 /*********  内容盒子 *********/
 .container{
 	width: 1226px;
