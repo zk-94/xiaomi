@@ -984,9 +984,9 @@ body{
 	width: 32px;
 	height: 20px;
 	color: #fff;
-	font-size: 12px;
+	text-indent: 2px;
+	text-align: center;
 	line-height: 20px;
-	font-weight: bold;
 	border-radius: 12px;
 	border:2px solid #fff;
 	background-color: rgba(0,0,0,.6);
@@ -996,6 +996,9 @@ body{
 .video-item .figure-img a:hover .play{
 	background-color: #ff6700;
 	border-color: #ff6700;
+}
+.video-item .figure-img .play .icon-youye{
+	font-size: 8px !important ;
 }
 .video-item .title{
 	margin-bottom: 8px;
